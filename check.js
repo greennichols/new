@@ -8,6 +8,6 @@ addToCartButtons.forEach((button) => {
     const chocolateName =
       chocolateCard.querySelector("h3").textContent;
 
-    alert(`Added ${chocolateName} to the cart`);
+    alert(`Added ${chocolateCard} to the cart`);
   });
 });
